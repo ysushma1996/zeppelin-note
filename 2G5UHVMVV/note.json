@@ -1,9 +1,9 @@
 {
   "paragraphs": [
     {
-      "text": "%sh\nls -lrth /usr/hdp/current/zeppelin-server/bin\n",
+      "text": "%sh\nls -lrth /usr/hdp/current/zeppelin-server/\n\n",
       "user": "admin",
-      "dateUpdated": "2021-04-27 18:10:54.107",
+      "dateUpdated": "2021-04-27 18:23:41.191",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -26,7 +26,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "total 68K\n-rwxr-xr-x 1 zeppelin zeppelin 3.0K Dec  6  2018 zeppelin.sh\n-rwxr-xr-x 1 zeppelin zeppelin 6.9K Dec  6  2018 zeppelin-daemon.sh\n-rwxr-xr-x 1 zeppelin zeppelin 3.0K Dec  6  2018 zeppelin.cmd\n-rwxr-xr-x 1 zeppelin zeppelin 1.8K Dec  6  2018 stop-interpreter.sh\n-rwxr-xr-x 1 zeppelin zeppelin 8.7K Dec  6  2018 interpreter.sh\n-rwxr-xr-x 1 zeppelin zeppelin 5.0K Dec  6  2018 interpreter.cmd\n-rwxr-xr-x 1 zeppelin zeppelin 1.8K Dec  6  2018 install-interpreter.sh\n-rwxr-xr-x 1 zeppelin zeppelin 4.1K Dec  6  2018 functions.sh\n-rwxr-xr-x 1 zeppelin zeppelin 1.2K Dec  6  2018 functions.cmd\n-rwxr-xr-x 1 zeppelin zeppelin 4.2K Dec  6  2018 common.sh\n-rwxr-xr-x 1 zeppelin zeppelin 2.7K Dec  6  2018 common.cmd\n"
+            "data": "total 36K\n-rwxr-xr-x 1 zeppelin hadoop   1.3K Dec  6  2018 README.md\n-rwxr-xr-x 1 zeppelin hadoop    17K Dec  6  2018 LICENSE\ndrwxr-xr-x 2 zeppelin hadoop    249 Feb 16 16:43 bin\ndrwxr-xr-x 9 zeppelin hadoop     89 Feb 16 16:43 interpreter\ndrwxr-xr-x 4 zeppelin hadoop   8.0K Feb 16 16:44 lib\ndrwxr-xr-x 8 zeppelin zeppelin  108 Feb 16 16:44 notebook\nlrwxrwxrwx 1 root     root       26 Feb 16 17:16 conf -\u003e /etc/zeppelin/3.1.0.0-78/0\ndrwxr-xr-x 4 zeppelin hadoop     46 Feb 16 23:01 local-repo\ndrwxr-xr-x 3 zeppelin hadoop     20 Apr 27 17:21 webapps\ndrwxrwxrwx 4 zeppelin zeppelin   52 Apr 27 17:25 zeppelin-note\n"
           }
         ]
       },
@@ -34,8 +34,8 @@
       "jobName": "paragraph_1619524511970_604101136",
       "id": "20210427-172511_616502781",
       "dateCreated": "2021-04-27 17:25:11.970",
-      "dateStarted": "2021-04-27 18:10:54.125",
-      "dateFinished": "2021-04-27 18:10:54.155",
+      "dateStarted": "2021-04-27 18:23:41.208",
+      "dateFinished": "2021-04-27 18:23:41.244",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
