@@ -1,9 +1,9 @@
 {
   "paragraphs": [
     {
-      "text": "%sh\nls -lrth /usr/hdp/current/zeppelin-server/conf\n",
+      "text": "%sh\nls -lrth /usr/hdp/current/zeppelin-server/bin\n",
       "user": "admin",
-      "dateUpdated": "2021-04-27 17:30:00.590",
+      "dateUpdated": "2021-04-27 18:10:54.107",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -26,7 +26,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "lrwxrwxrwx 1 root root 26 Feb 16 17:16 /usr/hdp/current/zeppelin-server/conf -\u003e /etc/zeppelin/3.1.0.0-78/0\n"
+            "data": "total 68K\n-rwxr-xr-x 1 zeppelin zeppelin 3.0K Dec  6  2018 zeppelin.sh\n-rwxr-xr-x 1 zeppelin zeppelin 6.9K Dec  6  2018 zeppelin-daemon.sh\n-rwxr-xr-x 1 zeppelin zeppelin 3.0K Dec  6  2018 zeppelin.cmd\n-rwxr-xr-x 1 zeppelin zeppelin 1.8K Dec  6  2018 stop-interpreter.sh\n-rwxr-xr-x 1 zeppelin zeppelin 8.7K Dec  6  2018 interpreter.sh\n-rwxr-xr-x 1 zeppelin zeppelin 5.0K Dec  6  2018 interpreter.cmd\n-rwxr-xr-x 1 zeppelin zeppelin 1.8K Dec  6  2018 install-interpreter.sh\n-rwxr-xr-x 1 zeppelin zeppelin 4.1K Dec  6  2018 functions.sh\n-rwxr-xr-x 1 zeppelin zeppelin 1.2K Dec  6  2018 functions.cmd\n-rwxr-xr-x 1 zeppelin zeppelin 4.2K Dec  6  2018 common.sh\n-rwxr-xr-x 1 zeppelin zeppelin 2.7K Dec  6  2018 common.cmd\n"
           }
         ]
       },
@@ -34,8 +34,8 @@
       "jobName": "paragraph_1619524511970_604101136",
       "id": "20210427-172511_616502781",
       "dateCreated": "2021-04-27 17:25:11.970",
-      "dateStarted": "2021-04-27 17:30:00.610",
-      "dateFinished": "2021-04-27 17:30:00.626",
+      "dateStarted": "2021-04-27 18:10:54.125",
+      "dateFinished": "2021-04-27 18:10:54.155",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
