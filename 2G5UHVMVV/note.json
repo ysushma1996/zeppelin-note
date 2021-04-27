@@ -1,0 +1,110 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh\nls -lrth /usr/hdp/current/zeppelin-server/conf\n",
+      "user": "admin",
+      "dateUpdated": "2021-04-27 17:30:00.590",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "lrwxrwxrwx 1 root root 26 Feb 16 17:16 /usr/hdp/current/zeppelin-server/conf -\u003e /etc/zeppelin/3.1.0.0-78/0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1619524511970_604101136",
+      "id": "20210427-172511_616502781",
+      "dateCreated": "2021-04-27 17:25:11.970",
+      "dateStarted": "2021-04-27 17:30:00.610",
+      "dateFinished": "2021-04-27 17:30:00.626",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\nls -lrth /usr/hdp/current/zeppelin-server/conf",
+      "user": "admin",
+      "dateUpdated": "2021-04-27 17:29:00.317",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "lrwxrwxrwx 1 root root 26 Feb 16 17:16 /usr/hdp/current/zeppelin-server/conf -\u003e /etc/zeppelin/3.1.0.0-78/0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1619524620438_1363070299",
+      "id": "20210427-172700_615995280",
+      "dateCreated": "2021-04-27 17:27:00.438",
+      "dateStarted": "2021-04-27 17:29:00.350",
+      "dateFinished": "2021-04-27 17:29:00.378",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n",
+      "user": "admin",
+      "dateUpdated": "2021-04-27 17:29:00.319",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1619524740317_1341075247",
+      "id": "20210427-172900_164293097",
+      "dateCreated": "2021-04-27 17:29:00.317",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "FirstNote",
+  "id": "2G5UHVMVV",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "sh:shared_process": [],
+    "spark2:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {}
+}
