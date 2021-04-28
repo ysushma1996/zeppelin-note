@@ -1,0 +1,71 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh\nls -lrth /usr/hdp/current/zeppelin-server/\n",
+      "user": "admin",
+      "dateUpdated": "2021-04-28 16:39:59.414",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "total 36K\n-rwxr-xr-x 1 zeppelin hadoop   1.3K Dec  6  2018 README.md\n-rwxr-xr-x 1 zeppelin hadoop    17K Dec  6  2018 LICENSE\ndrwxr-xr-x 2 zeppelin hadoop    249 Feb 16 16:43 bin\ndrwxr-xr-x 9 zeppelin hadoop     89 Feb 16 16:43 interpreter\ndrwxr-xr-x 4 zeppelin hadoop   8.0K Feb 16 16:44 lib\ndrwxr-xr-x 8 zeppelin zeppelin  108 Feb 16 16:44 notebook\nlrwxrwxrwx 1 root     root       26 Feb 16 17:16 conf -\u003e /etc/zeppelin/3.1.0.0-78/0\ndrwxr-xr-x 4 zeppelin hadoop     46 Feb 16 23:01 local-repo\ndrwxr-xr-x 3 zeppelin hadoop     20 Apr 27 17:21 webapps\ndrwxrwxrwx 5 zeppelin zeppelin   69 Apr 28 16:38 zeppelin-note\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1619608106384_-882246735",
+      "id": "20210428-163826_1305398902",
+      "dateCreated": "2021-04-28 16:38:26.384",
+      "dateStarted": "2021-04-28 16:39:59.429",
+      "dateFinished": "2021-04-28 16:39:59.451",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n",
+      "user": "admin",
+      "dateUpdated": "2021-04-28 16:39:42.427",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1619608182426_-596409249",
+      "id": "20210428-163942_86540466",
+      "dateCreated": "2021-04-28 16:39:42.426",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Second_Note",
+  "id": "2G3XPXUVH",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "sh:shared_process": [],
+    "spark2:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {}
+}
